@@ -1,0 +1,13 @@
+plataformero con sprites de metal slug de acciones y puzzles a resolver. Con textos de dialogo.
+
+
+combo especial: Sniper ayuda manejado por el mouse que dá un panoramma del nivel y eliminar 
+los enemigos que no se vean dentro del rango.
+
+radar tipo minimapa sin mucha informacion (fondo verde marcando los enemigos en rojo y objetos
+en otro color)
+
+nivel normal
+nivel de oscuridad
+nivel de escape (con tiempo)
+

@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: 54f980fc5f35a004585a64e295acb0cb
+timeCreated: 1516329727
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: body shotgun 2_0
+    21300002: body shotgun 2_1
+    21300004: body shotgun 2_2
+    21300006: body shotgun 2_3
+    21300008: body shotgun 2_4
+    21300010: body shotgun 2_5
+    21300012: body shotgun 2_6
+    21300014: body shotgun 2_7
+    21300016: body shotgun 2_9
+    21300018: body shotgun 2_10
+    21300020: body shotgun 2_11
+    21300022: body shotgun 2_12
+    21300024: body shotgun 2_13
+    21300026: body shotgun 2_14
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: body shotgun 2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 73
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.22505325, y: 0.1267386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 73
+        width: 33
+        height: 25
+      alignment: 9
+      pivot: {x: 0.3545738, y: 0.16939697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 73
+        width: 31
+        height: 25
+      alignment: 9
+      pivot: {x: 0.42259562, y: 0.16939697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 74
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5355489, y: 0.11118603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 73
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.41668272, y: 0.18006164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 61
+        width: 30
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45556438, y: 0.20481873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 62
+        width: 44
+        height: 27
+      alignment: 9
+      pivot: {x: 0.4030491, y: 0.19388609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 61
+        width: 48
+        height: 37
+      alignment: 9
+      pivot: {x: 0.40001932, y: 0.1685325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 60
+        width: 46
+        height: 40
+      alignment: 9
+      pivot: {x: 0.45942822, y: 0.2333847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 13
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.57177544, y: 0.29823118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 13
+        width: 25
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32454884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 21
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: 0.55757, y: 0.17102917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 21
+        width: 48
+        height: 25
+      alignment: 9
+      pivot: {x: 0.30261755, y: 0.16313392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 2_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 21
+        width: 44
+        height: 28
+      alignment: 9
+      pivot: {x: 0.23084225, y: 0.1804283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

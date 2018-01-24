@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 2501b30a39a2ea74abd5083b333f946b
+timeCreated: 1516789114
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: body shotgun 3_0
+    21300002: body shotgun 3_1
+    21300004: body shotgun 3_2
+    21300006: body shotgun 3_3
+    21300008: body shotgun 3_4
+    21300010: body shotgun 3_5
+    21300012: body shotgun 3_6
+    21300014: body shotgun 3_7
+    21300016: body shotgun 3_8
+    21300018: body shotgun 3_9
+    21300020: body shotgun 3_10
+    21300022: body shotgun 3_11
+    21300024: body shotgun 3_13
+    21300026: body shotgun 3_14
+    21300028: body shotgun 3_15
+    21300030: body shotgun 3_16
+    21300032: body shotgun 3_17
+    21300034: body shotgun 3_18
+    21300036: body shotgun 3_19
+    21300038: body shotgun 3_20
+    21300040: body shotgun 3_21
+    21300042: body shotgun 3_22
+    21300044: body shotgun 3_23
+    21300046: body shotgun 3_24
+    21300048: body shotgun 3_25
+    21300050: body shotgun 3_26
+    21300052: body shotgun 3_27
+    21300054: body shotgun 3_28
+    21300056: body shotgun 3_29
+    21300058: body shotgun 3_30
+    21300060: body shotgun 3_31
+    21300062: body shotgun 3_32
+    21300064: body shotgun 3_33
+    21300066: body shotgun 3_34
+    21300068: body shotgun 3_35
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: body shotgun 3_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 249
+        width: 36
+        height: 25
+      alignment: 9
+      pivot: {x: 0.14513461, y: 0.265213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 249
+        width: 40
+        height: 25
+      alignment: 9
+      pivot: {x: 0.16335754, y: 0.265213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 249
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.21669789, y: 0.27803802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 249
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 0.17503582, y: 0.26981673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 249
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 0.18519099, y: 0.25543022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 247
+        width: 35
+        height: 25
+      alignment: 9
+      pivot: {x: 0.16459045, y: 0.265213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 250
+        width: 29
+        height: 25
+      alignment: 9
+      pivot: {x: 0.17853731, y: 0.08567078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_7
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 250
+        width: 27
+        height: 28
+      alignment: 9
+      pivot: {x: 0.19308923, y: 0.08073807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 249
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.17853731, y: 0.076760076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_9
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 249
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.15472513, y: 0.09903594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_10
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 249
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.16586304, y: 0.09903594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 172
+        width: 18
+        height: 67
+      alignment: 9
+      pivot: {x: 0.51542664, y: 0.0026618615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 172
+        width: 16
+        height: 70
+      alignment: 9
+      pivot: {x: 0.43058062, y: 0.020009505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 171
+        width: 16
+        height: 44
+      alignment: 9
+      pivot: {x: 0.53471065, y: 0.039302826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 171
+        width: 18
+        height: 45
+      alignment: 9
+      pivot: {x: 0.48457378, y: 0.031028578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 171
+        width: 18
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5154275, y: 0.03299193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 171
+        width: 18
+        height: 45
+      alignment: 9
+      pivot: {x: 0.51542705, y: 0.037199233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 171
+        width: 18
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5308541, y: 0.03299193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_19
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 171
+        width: 17
+        height: 43
+      alignment: 9
+      pivot: {x: 0.53266907, y: 0.0350466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 171
+        width: 17
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5000009, y: 0.032684326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 171
+        width: 16
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5173559, y: 0.017364865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 171
+        width: 18
+        height: 45
+      alignment: 9
+      pivot: {x: 0.46914756, y: 0.037199233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_23
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 171
+        width: 23
+        height: 42
+      alignment: 9
+      pivot: {x: 0.64487755, y: 0.023976281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_24
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 171
+        width: 16
+        height: 43
+      alignment: 9
+      pivot: {x: 0.56942177, y: 0.028588938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 125
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.24421932, y: 0.41189778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_26
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 117
+        width: 24
+        height: 38
+      alignment: 9
+      pivot: {x: 0.37986025, y: 0.5569081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 116
+        width: 30
+        height: 39
+      alignment: 9
+      pivot: {x: 0.39587912, y: 0.53080475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_28
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 91
+        width: 30
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4038882, y: 0.6851326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 92
+        width: 30
+        height: 60
+      alignment: 9
+      pivot: {x: 0.45194396, y: 0.6842135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 112
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.44393462, y: 0.506007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 113
+        width: 30
+        height: 39
+      alignment: 9
+      pivot: {x: 0.41990662, y: 0.50616103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_32
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 113
+        width: 30
+        height: 39
+      alignment: 9
+      pivot: {x: 0.46796265, y: 0.53080475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 116
+        width: 30
+        height: 37
+      alignment: 9
+      pivot: {x: 0.46796265, y: 0.48051783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_34
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 118
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5266972, y: 0.52746016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body shotgun 3_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 116
+        width: 28
+        height: 37
+      alignment: 9
+      pivot: {x: 0.51716286, y: 0.545458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

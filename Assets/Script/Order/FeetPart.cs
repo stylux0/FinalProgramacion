@@ -95,9 +95,12 @@ public class FeetPart : MonoBehaviour {
 
     public void IdleFeet()
     {
+      
         isIdle = true;
         ismoving = false;
         iswalking = false;
+        iswalkingslowly = false;
+        isDamageWalk = false;
         rb.velocity = new Vector2(0, rb.velocity.y);
     }
 
@@ -143,10 +146,11 @@ public class FeetPart : MonoBehaviour {
         }
 
         else if (currentSpeedy == velocityMax.damageSpeed)
-		{    ismoving = true;
-			if(render.flipX) 
-            rb.velocity = new Vector2(currentSpeedy * -direcction, rb.velocity.y);
-			else rb.velocity = new Vector2(currentSpeedy * direcction, rb.velocity.y);
+		{
+
+            ismoving = true; 
+            rb.velocity = new Vector2(currentSpeedy * direcction , rb.velocity.y);
+      
             iswalking = false;
             iswalkingslowly = false;
             isrunning = false;

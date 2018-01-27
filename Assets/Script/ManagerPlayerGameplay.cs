@@ -10,14 +10,14 @@ public class ManagerPlayerGameplay : MonoBehaviour {
     public GameObject shotGun;
     private float time;
     private int direcction;
-    private bool hitsomething;
+   
     private RaycastHit2D hit;
 
 
 	void Start () {
         player = GetComponentInChildren<JannaBody>();
-        playerr = GetComponentInChildren<Janna>();
-        hitsomething = false;
+        //playerr = GetComponentInChildren<Janna>();
+       // hitsomething = false;
 }
 
 
@@ -77,7 +77,7 @@ public class ManagerPlayerGameplay : MonoBehaviour {
                         float forceX = distance - 6 ;
                         //Debug.Log(enemy.getDamage);
                         
-                        enemy.GetDamage(1, -direcction, forceX, 2f);
+                        enemy.GetDamage(1);
                        // hitRB.AddForce(new Vector2(distance - 5 * -direcction, 0.3f), ForceMode2D.Impulse);
                         //enemy.Die();
                         //return;

@@ -5,11 +5,21 @@ using UnityEngine;
 public class AttackVision : MonoBehaviour {
 
     public bool heroIsNear;
+    public Enemy me;
+
+    private void Start()
+    {
+        me = GetComponentInParent<Enemy>();
+    }
 
     private void OnTriggerEnter2D(Collider2D c)
     {
         if (c.gameObject.layer == Layers.HERO)
-                    heroIsNear = true;          
+        {
+         
+            heroIsNear = true;
+        }
+                            
     }
 
     private void OnTriggerExit2D(Collider2D c)
@@ -20,14 +30,26 @@ public class AttackVision : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D c)
     {
-        if (c.gameObject.layer == Layers.HERO)
+        if (c.gameObject.layer == Layers.HERO && me.canMove)
         {
-            Hero player = c.gameObject.GetComponentInChildren<Hero>();
-       
-            player.isGettingDamage = true;
-            Debug.Log(player.isGettingDamage);
 
+            ControlCharacter player = c.gameObject.GetComponentInParent<ControlCharacter>();
+            Character p = c.gameObject.GetComponentInParent<Character>();
+
+            //player.bodyComplete.isGettingDamage = true;
+
+            me.Attack();
+
+
+            if (me.endAttackin && !player.bodyComplete.isGettingDamage)
+            {
+                
+                player.bodyComplete.GetDamage(me.Attack(),me.direcction);
+                me.SetDamage(me.damage, p);            
+            }    
         }
+
+
 
     }
 }

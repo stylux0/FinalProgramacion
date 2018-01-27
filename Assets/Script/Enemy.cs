@@ -24,6 +24,7 @@ public abstract class Enemy : MonoBehaviour
     public bool isWakeUp;
     public bool getDamage;
     public bool isAttaking;
+    public bool endAttackin;
 
     public void Start()
     {
@@ -40,6 +41,10 @@ public abstract class Enemy : MonoBehaviour
 
     private void Update()
     {
+
+        if (direcction > 0) render.flipX = true;
+        else render.flipX = false;
+
         if (life <= 0)
         {
             Die();
@@ -78,17 +83,17 @@ public abstract class Enemy : MonoBehaviour
                         anim.ChangeAnimation("getDamage");
 
 
-                    if (canMove && !attackHero)
+                    if (canMove && !isAttaking)
                     {
                         Move(speed);
                         anim.ChangeAnimation("walk");
                     }
 
-                if (attackHero)
+                if (isAttaking && !getDamage)
                 {
-                    SetDamage(damage);
+                    
                     anim.ChangeAnimation("bit");
-                    isAttaking = true;
+                   
 }
             }  
         }
@@ -100,10 +105,17 @@ public abstract class Enemy : MonoBehaviour
 
 
 
-
-    public void Attack()
+    public bool Attack()
     {
+      
+        //endAttackin = false;
+        return isAttaking = true;
+    }
 
+    void EndAttack()
+    {
+        isAttaking = false;
+        endAttackin = true;
     }
 
 
@@ -120,18 +132,16 @@ public abstract class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void GetDamage(float damage, int direcction, float forceX, float forceY)
+    public void GetDamage(float damage)
     {
         
         canMove = false;
-
-        if (!getDamage)
-        {
-            Debug.Log("zombiewasShot");
-            rb.AddForce(new Vector2(forceX * direcction, forceY), ForceMode2D.Impulse);
-            life -= damage;
-            getDamage = true;
-        }
+        getDamage = true;
+        isAttaking = false;
+            //rb.AddForce(new Vector2(forceX * direcction, forceY), ForceMode2D.Impulse);
+        life -= damage;
+           
+        
            
         
 
@@ -150,15 +160,18 @@ public abstract class Enemy : MonoBehaviour
     {
         //Debug.Log("canMove");
         canMove = true;
-       // getDamage = false;
+        //getDamage = false;
         //isWakeUp = false;
     }
 
     public void Move(float speed)
     {
-
+        if (!getDamage)
+        {
+            rb.velocity = new Vector2(speed * direcction, rb.velocity.y);
+        }
        
-        rb.velocity = new Vector2(speed * direcction, rb.velocity.y);
+     
         
 
 
@@ -171,19 +184,12 @@ public abstract class Enemy : MonoBehaviour
     }
 
 
-    public void SetDamage(float damage)
+
+
+    public void SetDamage(float damage, Character player)
     {
         // anim.ChangeAnimation("bit");
-       // player.life -= damage;
-       
-
-
-    }
-
-
-    public void SetDamage(float damage, Hero player)
-    {
-        // anim.ChangeAnimation("bit");
+        if(isAttaking)
          player.life -= damage;
 
 

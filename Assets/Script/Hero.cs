@@ -153,7 +153,7 @@ public class Hero : MonoBehaviour
 
         if (c.gameObject.layer == Layers.ENEMY)
         {
-           Enemy enemy = c.gameObject.GetComponent<Enemy>();
+           
 
             //Debug.Log(enemy.isAttaking);
 

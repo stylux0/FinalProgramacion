@@ -1,65 +1,62 @@
 fileFormatVersion: 2
-guid: 4fd9c20a3c58b62408e1bcd8af7e1142
-timeCreated: 1516827737
+guid: b845b85961e967a4ca75f25e02c70eab
+timeCreated: 1516858615
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: bodyComplete Gun_0
-    21300002: bodyComplete Gun_1
-    21300004: bodyComplete Gun_2
-    21300006: bodyComplete Gun_3
-    21300008: bodyComplete Gun_4
-    21300010: bodyComplete Gun_5
-    21300012: bodyComplete Gun_6
-    21300014: bodyComplete Gun_7
-    21300016: bodyComplete Gun_8
-    21300018: bodyComplete Gun_9
-    21300020: bodyComplete Gun_10
-    21300022: bodyComplete Gun_11
-    21300024: bodyComplete Gun_12
-    21300026: bodyComplete Gun_13
-    21300028: bodyComplete Gun_14
-    21300030: bodyComplete Gun_15
-    21300032: bodyComplete Gun_16
-    21300034: bodyComplete Gun_17
-    21300036: bodyComplete Gun_18
-    21300038: bodyComplete Gun_19
-    21300040: bodyComplete Gun_20
-    21300042: bodyComplete Gun_21
-    21300044: bodyComplete Gun_22
-    21300046: bodyComplete Gun_23
-    21300048: bodyComplete Gun_24
-    21300050: bodyComplete Gun_25
-    21300052: bodyComplete Gun_26
-    21300054: bodyComplete Gun_27
-    21300056: bodyComplete Gun_28
-    21300058: bodyComplete Gun_29
-    21300060: bodyComplete Gun_30
-    21300062: bodyComplete Gun_31
-    21300064: bodyComplete Gun_32
-    21300066: bodyComplete Gun_33
-    21300068: bodyComplete Gun_34
-    21300070: bodyComplete Gun_35
-    21300072: bodyComplete Gun_36
-    21300074: bodyComplete Gun_37
-    21300076: bodyComplete Gun_38
-    21300078: bodyComplete Gun_39
-    21300080: bodyComplete Gun_40
-    21300082: bodyComplete Gun_41
-    21300084: bodyComplete Gun_42
-    21300086: bodyComplete Gun_43
-    21300088: bodyComplete Gun_44
-    21300090: bodyComplete Gun_45
-    21300092: bodyComplete Gun_46
-    21300094: bodyComplete Gun_47
-    21300096: bodyComplete Gun_48
-    21300098: bodyComplete Gun_49
-    21300100: bodyComplete Gun_50
-    21300102: bodyComplete Gun_51
-    21300104: bodyComplete Gun_52
-    21300106: bodyComplete Gun_53
-    21300108: bodyComplete Gun_54
-    21300110: bodyComplete Gun_55
+    21300000: bodycomplete shotGun_0
+    21300002: bodycomplete shotGun_1
+    21300004: bodycomplete shotGun_2
+    21300006: bodycomplete shotGun_3
+    21300008: bodycomplete shotGun_4
+    21300010: bodycomplete shotGun_5
+    21300012: bodycomplete shotGun_6
+    21300014: bodycomplete shotGun_7
+    21300016: bodycomplete shotGun_8
+    21300018: bodycomplete shotGun_9
+    21300020: bodycomplete shotGun_10
+    21300022: bodycomplete shotGun_11
+    21300024: bodycomplete shotGun_12
+    21300026: bodycomplete shotGun_13
+    21300028: bodycomplete shotGun_14
+    21300030: bodycomplete shotGun_15
+    21300032: bodycomplete shotGun_16
+    21300034: bodycomplete shotGun_17
+    21300036: bodycomplete shotGun_18
+    21300038: bodycomplete shotGun_19
+    21300040: bodycomplete shotGun_20
+    21300042: bodycomplete shotGun_21
+    21300044: bodycomplete shotGun_22
+    21300046: bodycomplete shotGun_23
+    21300048: bodycomplete shotGun_24
+    21300050: bodycomplete shotGun_25
+    21300052: bodycomplete shotGun_26
+    21300054: bodycomplete shotGun_28
+    21300056: bodycomplete shotGun_29
+    21300058: bodycomplete shotGun_30
+    21300060: bodycomplete shotGun_31
+    21300062: bodycomplete shotGun_32
+    21300064: bodycomplete shotGun_33
+    21300066: bodycomplete shotGun_34
+    21300068: bodycomplete shotGun_35
+    21300070: bodycomplete shotGun_36
+    21300072: bodycomplete shotGun_37
+    21300074: bodycomplete shotGun_38
+    21300076: bodycomplete shotGun_39
+    21300078: bodycomplete shotGun_40
+    21300080: bodycomplete shotGun_41
+    21300082: bodycomplete shotGun_42
+    21300084: bodycomplete shotGun_43
+    21300086: bodycomplete shotGun_44
+    21300088: bodycomplete shotGun_45
+    21300090: bodycomplete shotGun_46
+    21300092: bodycomplete shotGun_47
+    21300094: bodycomplete shotGun_48
+    21300096: bodycomplete shotGun_49
+    21300098: bodycomplete shotGun_50
+    21300100: bodycomplete shotGun_51
+    21300102: bodycomplete shotGun_52
+    21300104: bodycomplete shotGun_53
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -150,717 +147,678 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bodyComplete Gun_0
+      name: bodycomplete shotGun_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 230
-        width: 28
+        x: 23
+        y: 241
+        width: 37
+        height: 39
+      alignment: 9
+      pivot: {x: 0.34086064, y: -0.028424386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 242
+        width: 41
         height: 38
       alignment: 9
-      pivot: {x: 0.36383337, y: 0.028433548}
+      pivot: {x: 0.44973513, y: 0.0041552093}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_1
+      name: bodycomplete shotGun_2
       rect:
         serializedVersion: 2
-        x: 41
-        y: 230
-        width: 28
-        height: 40
-      alignment: 9
-      pivot: {x: 0.43191665, y: 0.04248009}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_2
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 230
-        width: 35
-        height: 38
-      alignment: 9
-      pivot: {x: 0.33660015, y: 0.028433548}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_3
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 223
-        width: 37
-        height: 28
-      alignment: 9
-      pivot: {x: 0.4278686, y: 0.22766659}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_4
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 226
-        width: 35
-        height: 25
-      alignment: 9
-      pivot: {x: 0.44553354, y: 0.10348266}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_5
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 226
-        width: 35
-        height: 25
-      alignment: 9
-      pivot: {x: 0.4782135, y: 0.10348266}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_6
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 226
-        width: 34
-        height: 25
-      alignment: 9
-      pivot: {x: 0.44393158, y: 0.13398437}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_7
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 226
-        width: 32
-        height: 25
-      alignment: 9
-      pivot: {x: 0.47617054, y: 0.16448547}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_8
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 226
-        width: 35
-        height: 25
-      alignment: 9
-      pivot: {x: 0.44508842, y: 0.14637023}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_9
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 226
-        width: 33
-        height: 25
-      alignment: 9
-      pivot: {x: 0.4534089, y: 0.17712097}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_10
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 183
-        width: 51
-        height: 26
-      alignment: 9
-      pivot: {x: 0.2197649, y: 0.079647355}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 183
-        width: 53
-        height: 26
-      alignment: 9
-      pivot: {x: 0.35164014, y: 0.09581463}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_13
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 183
-        width: 30
-        height: 29
-      alignment: 9
-      pivot: {x: 0.40191752, y: 0.12313212}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_14
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 183
-        width: 35
-        height: 26
-      alignment: 9
-      pivot: {x: 0.31984863, y: 0.079647355}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_15
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 181
-        width: 27
-        height: 28
-      alignment: 9
-      pivot: {x: 0.46886247, y: 0.06463514}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_16
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 181
-        width: 29
-        height: 28
-      alignment: 9
-      pivot: {x: 0.39853537, y: 0.10967255}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_17
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 181
-        width: 29
-        height: 27
-      alignment: 9
-      pivot: {x: 0.42752495, y: 0.11078446}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_18
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 181
-        width: 37
-        height: 27
-      alignment: 9
-      pivot: {x: 0.2841434, y: 0.095215976}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_19
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 181
-        width: 23
-        height: 27
-      alignment: 9
-      pivot: {x: 0.48172396, y: 0.095215976}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_20
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 181
-        width: 25
-        height: 27
-      alignment: 9
-      pivot: {x: 0.516814, y: 0.07964749}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_21
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 181
-        width: 48
-        height: 29
-      alignment: 9
-      pivot: {x: 0.3423678, y: 0.0651524}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_22
-      rect:
-        serializedVersion: 2
-        x: 445
-        y: 181
+        x: 105
+        y: 248
         width: 44
         height: 32
       alignment: 9
-      pivot: {x: 0.20384216, y: 0.053375244}
+      pivot: {x: 0.38625145, y: 0.012386799}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_23
+      name: bodycomplete shotGun_3
       rect:
         serializedVersion: 2
-        x: 8
-        y: 143
-        width: 35
-        height: 25
-      alignment: 9
-      pivot: {x: 0.44673112, y: 0.015253906}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_24
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 143
-        width: 36
-        height: 25
-      alignment: 9
-      pivot: {x: 0.43958262, y: 0.032368775}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_25
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 143
-        width: 34
-        height: 28
-      alignment: 9
-      pivot: {x: 0.46801445, y: 0.053342003}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_26
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 143
-        width: 32
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5084963, y: 0.04686864}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_27
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 143
-        width: 35
-        height: 25
-      alignment: 9
-      pivot: {x: 0.5000004, y: 0.07586914}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_28
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 134
-        width: 43
-        height: 29
-      alignment: 9
-      pivot: {x: 0.4167839, y: 0.024072055}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_29
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 134
-        width: 46
-        height: 35
-      alignment: 9
-      pivot: {x: 0.39998594, y: 0.039936174}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_30
-      rect:
-        serializedVersion: 2
-        x: 303
-        y: 132
+        x: 151
+        y: 246
         width: 42
-        height: 40
+        height: 34
       alignment: 9
-      pivot: {x: 0.43788, y: 0.052738953}
+      pivot: {x: 0.29671842, y: 0.04106993}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_31
+      name: bodycomplete shotGun_4
       rect:
         serializedVersion: 2
-        x: 362
-        y: 132
-        width: 27
-        height: 29
-      alignment: 9
-      pivot: {x: 0.47706208, y: 0.072879136}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_32
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 132
-        width: 26
-        height: 29
-      alignment: 9
-      pivot: {x: 0.48808992, y: 0.040844623}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_33
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 132
-        width: 25
-        height: 28
-      alignment: 9
-      pivot: {x: 0.5690906, y: 0.09080287}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_34
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 132
-        width: 51
-        height: 25
-      alignment: 9
-      pivot: {x: 0.5043867, y: 0.078859255}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_35
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 86
-        width: 26
+        x: 203
+        y: 245
+        width: 29
         height: 36
       alignment: 9
-      pivot: {x: 0.5, y: 0.072060265}
+      pivot: {x: 0.49999946, y: 0.017498016}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_36
+      name: bodycomplete shotGun_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 86
+        x: 234
+        y: 245
         width: 34
         height: 36
       alignment: 9
-      pivot: {x: 0.5188796, y: 0.03639857}
+      pivot: {x: 0.48268172, y: 0.017498016}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_37
+      name: bodycomplete shotGun_6
       rect:
         serializedVersion: 2
-        x: 76
-        y: 86
+        x: 270
+        y: 245
         width: 40
         height: 34
       alignment: 9
-      pivot: {x: 0.4759283, y: 0.046887342}
+      pivot: {x: 0.40431747, y: 0.023751652}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_38
+      name: bodycomplete shotGun_7
       rect:
         serializedVersion: 2
-        x: 118
-        y: 86
+        x: 312
+        y: 245
         width: 31
         height: 36
       alignment: 9
-      pivot: {x: 0.47929284, y: 0.054229524}
+      pivot: {x: 0.39553243, y: 0.050209895}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_39
+      name: bodycomplete shotGun_8
       rect:
         serializedVersion: 2
-        x: 204
-        y: 86
+        x: 363
+        y: 250
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4086314, y: 0.022856088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_9
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 250
         width: 27
-        height: 39
+        height: 29
       alignment: 9
-      pivot: {x: 0.46950898, y: 0.077810824}
+      pivot: {x: 0.4563836, y: 0.033007916}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_40
+      name: bodycomplete shotGun_10
       rect:
         serializedVersion: 2
-        x: 233
-        y: 86
-        width: 32
-        height: 39
-      alignment: 9
-      pivot: {x: 0.49069595, y: 0.0075284517}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_41
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 93
-        width: 35
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5111101, y: 0.050386667}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_42
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 91
-        width: 34
-        height: 34
-      alignment: 9
-      pivot: {x: 0.43137854, y: -0.0032236436}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_43
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 33
-        width: 28
-        height: 34
-      alignment: 9
-      pivot: {x: 0.4396224, y: 0.062441207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_44
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 33
+        x: 423
+        y: 250
         width: 26
-        height: 33
-      alignment: 9
-      pivot: {x: 0.4479822, y: 0.059427436}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_45
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 33
-        width: 22
-        height: 37
-      alignment: 9
-      pivot: {x: 0.48463094, y: 0.03395122}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_46
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 33
-        width: 25
-        height: 36
-      alignment: 9
-      pivot: {x: 0.48647553, y: 0.030397734}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_47
-      rect:
-        serializedVersion: 2
-        x: 122
-        y: 33
-        width: 28
         height: 28
       alignment: 9
-      pivot: {x: 0.5, y: 0.04578427}
+      pivot: {x: 0.5113232, y: 0.04787336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_48
+      name: bodycomplete shotGun_11
       rect:
         serializedVersion: 2
-        x: 152
-        y: 33
-        width: 26
-        height: 19
-      alignment: 9
-      pivot: {x: 0.4999994, y: 0.042868763}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_49
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 33
-        width: 25
-        height: 13
-      alignment: 9
-      pivot: {x: 0.51240784, y: 0.046635553}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_50
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 35
-        width: 29
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_51
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 35
-        width: 36
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_52
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 35
-        width: 35
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_53
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 35
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bodyComplete Gun_54
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 35
-        width: 36
+        x: 451
+        y: 251
+        width: 46
         height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.403997, y: 0.040723268}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: bodyComplete Gun_55
+      name: bodycomplete shotGun_12
       rect:
         serializedVersion: 2
-        x: 406
-        y: 36
+        x: 23
+        y: 196
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.2546735, y: 0.04569124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 196
+        width: 38
+        height: 40
+      alignment: 9
+      pivot: {x: 0.27284583, y: 0.05977478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 196
         width: 41
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 38
+      alignment: 9
+      pivot: {x: 0.2557816, y: 0.018432617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 195
+        width: 46
+        height: 25
+      alignment: 9
+      pivot: {x: 0.29783598, y: 0.058271483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 195
+        width: 46
+        height: 25
+      alignment: 9
+      pivot: {x: 0.28554866, y: 0.04142151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 195
+        width: 46
+        height: 25
+      alignment: 9
+      pivot: {x: 0.30873242, y: 0.04142151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 194
+        width: 44
+        height: 25
+      alignment: 9
+      pivot: {x: 0.3485142, y: 0.04142151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_19
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 194
+        width: 43
+        height: 25
+      alignment: 9
+      pivot: {x: 0.2829874, y: 0.04142151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_20
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 194
+        width: 45
+        height: 25
+      alignment: 9
+      pivot: {x: 0.33410645, y: 0.094744265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_21
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 194
+        width: 44
+        height: 25
+      alignment: 9
+      pivot: {x: 0.30609825, y: 0.04142151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 154
+        width: 66
+        height: 28
+      alignment: 9
+      pivot: {x: 0.19269119, y: 0.006587982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 154
+        width: 65
+        height: 28
+      alignment: 9
+      pivot: {x: 0.27057758, y: 0.0767157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 154
+        width: 64
+        height: 25
+      alignment: 9
+      pivot: {x: 0.17849493, y: 0.04144165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_26
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 154
+        width: 65
+        height: 25
+      alignment: 9
+      pivot: {x: 0.2574932, y: 0.0061682127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_28
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 151
+        width: 44
+        height: 28
+      alignment: 9
+      pivot: {x: 0.23032379, y: 0.056959424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_29
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 151
+        width: 41
+        height: 26
+      alignment: 9
+      pivot: {x: 0.28294337, y: 0.033251837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_30
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 151
+        width: 44
+        height: 26
+      alignment: 9
+      pivot: {x: 0.2548398, y: 0.05399616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 115
+        width: 39
+        height: 26
+      alignment: 9
+      pivot: {x: 0.29248014, y: 0.027316166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 115
+        width: 40
+        height: 26
+      alignment: 9
+      pivot: {x: 0.29766807, y: 0.038845062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 115
+        width: 40
+        height: 26
+      alignment: 9
+      pivot: {x: 0.26769295, y: 0.073431745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_34
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 115
+        width: 40
+        height: 26
+      alignment: 9
+      pivot: {x: 0.27518693, y: 0.061902855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_35
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 115
+        width: 39
+        height: 26
+      alignment: 9
+      pivot: {x: 0.2771086, y: 0.061902855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_36
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 115
+        width: 38
+        height: 26
+      alignment: 9
+      pivot: {x: 0.29490742, y: 0.038845062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_37
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 115
+        width: 36
+        height: 26
+      alignment: 9
+      pivot: {x: 0.31681907, y: 0.027316166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_38
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 115
+        width: 36
+        height: 28
+      alignment: 9
+      pivot: {x: 0.3334715, y: 0.018257687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_39
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 115
+        width: 34
+        height: 29
+      alignment: 9
+      pivot: {x: 0.3413086, y: 0.045205742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_40
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 114
+        width: 38
+        height: 29
+      alignment: 9
+      pivot: {x: 0.3027962, y: 0.055542257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 114
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: 0.33139038, y: 0.05037384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_42
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 35
+        height: 26
+      alignment: 9
+      pivot: {x: 0.31158534, y: 0.02731646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_43
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 67
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.47934508, y: 0.026609678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 67
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: 0.47720838, y: 0.04447339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_45
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 67
+        width: 39
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4322091, y: 0.04447339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_46
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 67
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.44836235, y: 0.04447339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_47
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 66
+        width: 44
+        height: 29
+      alignment: 9
+      pivot: {x: 0.45360184, y: 0.051215336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_48
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 66
+        width: 48
+        height: 35
+      alignment: 9
+      pivot: {x: 0.44655737, y: 0.027667018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_49
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 67
+        width: 46
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5061964, y: 0.015451431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_50
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 67
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.6367857, y: 0.021371065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_51
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 67
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.6951904, y: 0.05876414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_52
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 67
+        width: 48
+        height: 29
+      alignment: 9
+      pivot: {x: 0.31911215, y: 0.054379955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bodycomplete shotGun_53
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 67
+        width: 44
+        height: 32
+      alignment: 9
+      pivot: {x: 0.2292418, y: 0.04567647}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

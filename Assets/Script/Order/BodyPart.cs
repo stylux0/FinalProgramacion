@@ -8,8 +8,9 @@ public class BodyPart : MonoBehaviour {
     public FeetPart feets;
     public AnimationControllerCustom anim;
     public SpriteRenderer render;
-       
+     public ColliderManager collideras;
 
+    public bool isbeingAttackin;
     public bool isShooting;
     public bool select1;
     public bool select2;
@@ -27,6 +28,8 @@ public class BodyPart : MonoBehaviour {
         feets = GetComponentInParent<FeetPart>();
         anim = GetComponent<AnimationControllerCustom>();
         render = GetComponent<SpriteRenderer>();
+        collideras = GetComponentInParent<ColliderManager>();
+
         gunActive = true;
         
     }
@@ -44,9 +47,33 @@ public class BodyPart : MonoBehaviour {
 
         AnimationControlBody();
 
-        FixPosition();
+       
     }
 
+
+    
+    void ActiveColliderHit()
+    {
+        if (render.flipX)
+        {
+            if (isAttackingMelee) collideras.ActiveCollider("left_StandupStick");
+            if (isAttackingMelee2) collideras.ActiveCollider("left_StandupAxe");
+        }
+        else
+        {
+            if (isAttackingMelee)  collideras.ActiveCollider("right_StandupStick");            
+            if (isAttackingMelee2) collideras.ActiveCollider("right_StandupAxe");
+        }
+     
+}
+
+    void DesactiveColliderHit()
+    {
+        collideras.DesactiveCollider("left_StandupStick");
+        collideras.DesactiveCollider("left_StandupAxe");
+        collideras.DesactiveCollider("right_StandupStick");
+        collideras.DesactiveCollider("right_StandupAxe");
+    }
 
     void EndAtackMelee()
     {
@@ -150,36 +177,7 @@ public class BodyPart : MonoBehaviour {
       
     }
 
-    private void FixPosition()
-    {
-        if (feets.render.flipX)
-        {
-
-           // if(isShooting) transform.localPosition = new Vector2(-0.009f, 0.046f);
-
-            //if (feets.ismoving) transform.localPosition = new Vector2(-0.059f, transform.localPosition.y);
-            //else if (feets.isJumping)transform.localPosition = new Vector2(0.026f, 0.132f);
-
-
-            //if (feets.isJumping && feets.rb.velocity.x == 0) transform.localPosition = new Vector2(0.026f, 0.132f);
-            //else if (feets.isJumping && feets.rb.velocity.x != 0) transform.localPosition = new Vector2(0.026f, 0.132f);
-          
-            //else if (!feets.ismoving) transform.localPosition = new Vector2(-0.063f, 0.107f);
-
-        }
-
-        else
-        {
-            //if(isShooting) transform.localPosition = new Vector2(-0.009f, 0.058f);
-            //else transform.localPosition = new Vector2(0.056f, 0.115f);
-            //if (feets.ismoving) transform.localPosition = new Vector2(0.06f, transform.localPosition.y);
-            //if (feets.isJumping && feets.rb.velocity.x == 0) transform.localPosition = new Vector2(0.018f, 0.143f);
-            //else if (feets.isJumping && feets.rb.velocity.x != 0) transform.localPosition = new Vector2(-0.046f, 0.126f);
-
-          
-            
-        }
-    }
+    
 
 
     public void Shooting()
@@ -217,6 +215,7 @@ public class BodyPart : MonoBehaviour {
         select1 = true;
         gunActive = true;
         gunShotActive = false;
+        isShooting = false;
 
     }
 
@@ -225,6 +224,7 @@ public class BodyPart : MonoBehaviour {
         select2 = true;
         gunShotActive = true;
         gunActive = false;
+        isShooting = false;
 
     }
 

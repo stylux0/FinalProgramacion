@@ -37,6 +37,25 @@ public class AnimationName : MonoBehaviour {
     public static string shotGun_attackMelee_axe = "shotgun_attackMelee_axe";
     public static string shotGun_throw = "shotgun_throw";
 
+    public static string down_gun_idle = "down_gun_idle";
+    public static string down_gun_walk = "down_gun_walk";
+    public static string down_selectGun = "down_gun_selectGun";
+    public static string down_gun_shoot = "down_gun_shoot";
+    public static string down_gun_attackMelee_stick = "down_gun_attackMelee_stick";
+    public static string down_gun_attackMelee_axe = "down_gun_attackMelee_axe";
+    public static string down_gun_attackMelee_kick = "down_gun_attackMelee_kick";
+    public static string down_gun_throw = "down_gun_throw";
+    public static string standup_gun_kick = "standup_gun_attackmelee_kick";
+
+    public static string down_gunshot_idle = "down_gunshot_idle";
+    public static string down_gunshot_walk = "down_shotgun_walk";
+    public static string down_shotgun_selectShotGun = "down_shotgun_selectShotGun";
+    public static string down_gunshot_shoot = "down_gunshot_shoot";
+    public static string down_shotgun_attackMelee_stick = "down_shotgun_attackMelee_stick";
+    public static string down_shotgun_attackMelee_axe = "down_shotgun_attackMelee_axe";
+    public static string down_shotgun_attackMelee_kick = "down_shotgun_attackMelee_kick";
+    public static string down_shotgun_throw = "down_shotgun_throw";
+    public static string standup_shotgun_attackmelee_kick = "standup_shotgun_attackmelee_kick";
 
 
 

@@ -92,6 +92,8 @@
     <Compile Include="Assets\Script\Order\BodyComplete.cs" />
     <Compile Include="Assets\Script\Order\BodyPart.cs" />
     <Compile Include="Assets\Script\Order\Character.cs" />
+    <Compile Include="Assets\Script\Order\ColliderAttack.cs" />
+    <Compile Include="Assets\Script\Order\ColliderManager.cs" />
     <Compile Include="Assets\Script\Order\ControlCharacter.cs" />
     <Compile Include="Assets\Script\Order\FeetPart.cs" />
   </ItemGroup>

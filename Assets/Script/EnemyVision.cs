@@ -16,14 +16,26 @@ public class EnemyVision : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D c)
     {
         
-            Hero player = c.gameObject.GetComponent<Hero>();
+            ControlCharacter player = c.gameObject.GetComponentInParent<ControlCharacter>();
+        
 
         if(c.gameObject.layer == Layers.HERO && !enemy.isWakeUp && !enemy.canMove)
         {
            
-            if (!player.iswalkinglow)
-            enemy.isWakeUp = true;
-         
+            if (!player.feets.iswalkingslowly)
+            {
+                enemy.isWakeUp = true;
+                
+            }
+
+            if (enemy.transform.position.x < c.transform.position.x)
+                enemy.direcction = 1;
+
+            if (enemy.transform.position.x > c.transform.position.x)
+                enemy.direcction = -1;
+          
+
+
         }
         
     }
@@ -36,9 +48,9 @@ public class EnemyVision : MonoBehaviour {
 
         if(c.gameObject.layer == Layers.HERO)
         {
-            Hero player = c.gameObject.GetComponent<Hero>();
+            ControlCharacter player = c.gameObject.GetComponentInParent<ControlCharacter>();
 
-            if (!player.iswalkinglow   && player.rb.velocity.x != 0 && !enemy.isWakeUp)
+            if (!player.feets.iswalkingslowly   && player.rb.velocity.x != 0 && !enemy.isWakeUp)
                enemy.isWakeUp = true;
         }
 

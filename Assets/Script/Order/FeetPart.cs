@@ -101,7 +101,7 @@ public class FeetPart : MonoBehaviour {
         iswalking = false;
         iswalkingslowly = false;
         isDamageWalk = false;
-        rb.velocity = new Vector2(0, rb.velocity.y);
+       rb.velocity = new Vector2(0, rb.velocity.y);
     }
 
 
@@ -113,7 +113,7 @@ public class FeetPart : MonoBehaviour {
         if (direcction > 0) render.flipX = false;
         else render.flipX = true;
 
-        if (currentSpeedy == velocityMax.slowSpeed)
+        if (currentSpeedy == velocityMax.slowSpeed && !isDamageWalk)
         {
 
 			ismoving = true;
@@ -125,7 +125,7 @@ public class FeetPart : MonoBehaviour {
 
 
         }
-        else if (currentSpeedy == velocityMax.walkSpeed)
+        else if (currentSpeedy == velocityMax.walkSpeed && !isDamageWalk)
         {
 			ismoving = true;
             rb.velocity = new Vector2(currentSpeedy * direcction, rb.velocity.y);
@@ -135,7 +135,7 @@ public class FeetPart : MonoBehaviour {
             isDamageWalk = false;
         }
 
-        else if (currentSpeedy == velocityMax.runSpeed)
+        else if (currentSpeedy == velocityMax.runSpeed && !isDamageWalk)
         {
 			ismoving = true;
             rb.velocity = new Vector2(currentSpeedy * direcction, rb.velocity.y);

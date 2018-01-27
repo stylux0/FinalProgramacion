@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Character : MonoBehaviour {
 
+    public float life;
     public float CurrnetMaxspeed;
     public float currentspeed;
     public float runSpeed;
@@ -20,8 +21,16 @@ public class Character : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (life <= 0)
+            Destroy(gameObject);
+
+        if(life < 10)
+        {
+            currentspeed = damageSpeed;
+        }
 	}
+
+    
 
 	private void OnCollisionEnter2D(Collision2D c)
 	{
@@ -32,7 +41,7 @@ public class Character : MonoBehaviour {
 
 		if (c.gameObject.layer == Layers.ENEMY)
 		{
-			Enemy enemy = c.gameObject.GetComponent<Enemy>();
+
 
 			//Debug.Log(enemy.isAttaking);
 
